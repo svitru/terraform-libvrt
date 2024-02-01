@@ -48,7 +48,7 @@ EOF
 
 resource "libvirt_volume" "os_image" {
   name   = "os_image"
-  source = "ubuntu-22.04-server-cloudimg-amd64.img"
+  source = "ubuntu-22.04-server-cloudimg-amd64.img" # downloaded from https://cloud-images.ubuntu.com/releases/jammy/release/
 }
 
 resource "libvirt_volume" "volume" {
